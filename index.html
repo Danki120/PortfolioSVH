@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="name">
+                <h2>Santiago Vargas Haittel</h2>
+            </div>
+            <div class="socials">
+                <a href=""><img src="./assets/vimeoLogo.svg" alt="My Vimeo" class="socialLogo"></a>
+                <a href=""><img src="./assets/twitchLogo.svg" alt="My Twitch" class="socialLogo"></a>
+                <a href=""><img src="./assets/twitterLogo.svg" alt="My Twitter" class="socialLogo"></a>
+                <div  class="contactEmail">
+                    <button onclick="copyEmailToClipboard()" onmouseout="hoverOutsideButton()">
+                    <span class="tooltiptext" id="tooltip">Click to copy to clipboard.</span>
+                    Contact Email
+                </button></div>
+            </div>
+        </div>
+    
+    
+        <script>
+            function copyEmailToClipboard(){
+                navigator.clipboard.writeText("santiproductions@gmail.com");
+
+                var tooltip = document.getElementById("tooltip");
+                tooltip.innerHTML = "Copied to clipboard!";
+            }
+
+            function hoverOutsideButton(){
+                var tooltip = document.getElementById("tooltip");
+                tooltip.innerHTML = "Click to copy to clipboard.";
+            }
+        </script>
+    </body>
+</html>
