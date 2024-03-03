@@ -5,6 +5,38 @@
     </head>
 
     <body>
-        <div class="tenor-gif-embed" data-postid="15086395" data-share-method="host" data-aspect-ratio="0.9875" data-width="100%"><a href="https://tenor.com/view/cat-standing-let-me-in-glass-fast-gif-15086395">Cat Standing GIF</a>from <a href="https://tenor.com/search/cat-gifs">Cat GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.vimeo.com/haittel" target="_blank" rel="noopener noreferrer"><img src="./assets/vimeoLogo.svg" alt="My Vimeo" class="socialLogo"></a>
+                <a href="https://www.twitch.tv/mforeo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitchLogo.svg" alt="My Twitch" class="socialLogo"></a>
+                <a href="https://twitter.com/MF_Oreo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitterLogo.svg" alt="My Twitter" class="socialLogo"></a>
+                <a href="https://www.tiktok.com/@haittel" target="_blank" rel="noopener noreferrer"><img src="./assets/tiktokLogo.svg" alt="My TikTok" class="socialLogo"></a>
+                <a href="https://www.instagram.com/haittel/" target="_blank" rel="noopener noreferrer"><img src="./assets/instagramLogo.svg" alt="My Instagram" class="socialLogo"></a>
+                <div  class="contactEmail">
+                    <button onclick="copyEmailToClipboard()" onmouseout="hoverOutsideButton()">
+                    <span class="tooltiptext" id="tooltip">Click to copy Email to clipboard.</span>
+                        <img src="./assets/mailLogo.svg" alt="Email" class="socialLogo">
+                    </button>
+                </div>
+            </div>
+            <div>
+                <video autoplay loop muted="true" width="333" height="444" class="vid_no_margin">    
+                    <source src="./assets/sharl.mp4" type="video/mp4" />    
+                </video>
+            </div>
+        </div>
+        <script>
+            function copyEmailToClipboard(){
+                navigator.clipboard.writeText("santiproductions@gmail.com");
+
+                var tooltip = document.getElementById("tooltip");
+                tooltip.innerHTML = "Copied to clipboard!";
+            }
+
+            function hoverOutsideButton(){
+                var tooltip = document.getElementById("tooltip");
+                tooltip.innerHTML = "Click to copy to clipboard.";
+            }
+        </script>
     </body>
 </html>
