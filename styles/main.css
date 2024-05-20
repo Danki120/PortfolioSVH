@@ -19,7 +19,7 @@ body{
     
 }
 
-.myName img{
+.myName>img{
     width: 20%;
 }
 
