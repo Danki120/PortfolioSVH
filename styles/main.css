@@ -206,7 +206,7 @@ button:hover{
     justify-self: center;
     align-self: center;
     text-decoration: none;
-    transition: opacity 1s;
+    transition: opacity 0.3s;
 }
 
 .project:hover span{
@@ -218,7 +218,7 @@ button:hover{
     height: auto;
     align-self: center;
     filter: grayscale(100%);
-    transition: filter 1s;
+    transition: filter 0.3s;
 }
 
 .project:hover img{
