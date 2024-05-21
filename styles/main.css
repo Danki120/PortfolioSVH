@@ -246,7 +246,6 @@ button:hover{
 
 .extraLinks>a{
     display: flex;
-    text-decoration: none;
     color: white;
     justify-content: center;
     justify-self: center;
