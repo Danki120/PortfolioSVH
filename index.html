@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Haittel</title>
+        <link rel="icon" href="./assets/mini_narancia.png">
+        <link rel="stylesheet" href="./styles/main.css">    
+    </head>
+
+    <body>
+        <!-- Full page container -->
+        <div class="wrapper">
+
+            <!-- Header container -->
+            <div class="headerContainer">
+                <div class="santi">
+                    <img src="./assets/haittel.gif" alt="Santi Haittel">
+                </div>
+                <div class="socialsDropdown">
+                    <button onclick="dropdownButton()" class="dropButton">Contact</button>
+                    <div id="socialsMenu" class="dropdownContent">
+                        <a href="https://www.linkedin.com/in/haittel/" target="_blank" rel="noopener noreferrer"><img src="./assets/linkedinLogo2.svg" alt="My LinkedIn" class="socialLogo"></a>
+                        <a href="https://www.twitch.tv/mforeo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitchLogo2.svg" alt="My Twitch" class="socialLogo"></a>
+                        <a href="https://twitter.com/MF_Oreo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitterLogo.svg" alt="My Twitter" class="socialLogo"></a>
+                        <a href="https://www.tiktok.com/@haittel" target="_blank" rel="noopener noreferrer"><img src="./assets/tiktokLogo.svg" alt="My TikTok" class="socialLogo"></a>
+                        <a href="https://www.instagram.com/haittel/" target="_blank" rel="noopener noreferrer"><img src="./assets/instagramLogo.svg" alt="My Instagram" class="socialLogo"></a>
+                        <div  class="contactEmail">
+                            <button onclick="copyEmailToClipboard()" class="emailButton">
+                                <img src="./assets/mailLogo.svg" alt="Email" class="socialLogo">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="socials">
+                    <a href="https://www.linkedin.com/in/haittel/" target="_blank" rel="noopener noreferrer"><img src="./assets/linkedinLogo2.svg" alt="My LinkedIn" class="socialLogo"></a>
+                    <a href="https://www.twitch.tv/mforeo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitchLogo2.svg" alt="My Twitch" class="socialLogo"></a>
+                    <a href="https://twitter.com/MF_Oreo" target="_blank" rel="noopener noreferrer"><img src="./assets/twitterLogo.svg" alt="My Twitter" class="socialLogo"></a>
+                    <a href="https://www.tiktok.com/@haittel" target="_blank" rel="noopener noreferrer"><img src="./assets/tiktokLogo.svg" alt="My TikTok" class="socialLogo"></a>
+                    <a href="https://www.instagram.com/haittel/" target="_blank" rel="noopener noreferrer"><img src="./assets/instagramLogo.svg" alt="My Instagram" class="socialLogo"></a>
+                    <div  class="contactEmail">
+                        <button onclick="copyEmailToClipboard()" onmouseout="hoverOutsideButton()">
+                            <img src="./assets/mailLogo.svg" alt="Email" class="socialLogo">
+                        </button>
+                    </div>
+                </div> -->
+            </div>
+            <!-- Body container where all the projects show -->
+            <div class="bodyContainer">
+                <a href="https://www.behance.net/gallery/195742713/BREAKING-STEVE" target="_blank" rel="noopener noreferrer">
+                    <div class="project">
+                        <span>Breaking Steve</span>
+                            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZubzB4dGYxb2N1a2s1bTdwdGprczkxb25vOWFjcWYwZm9wbGRxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/laXD4pdJFw2EEmhbR0/giphy.gif" alt="Proyecto 1">
+                        <span>Director, Producer, Editor</span>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/195741199/FIVE-NIGHTS-AT-TARIKS" target="_blank" rel="noopener noreferrer">
+                    <div class="project">
+                        <span>Five Nights at Tarik's</span>
+                            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjB0NGlnOW84dzFmeTAxcjhmM2IwajJ2bW1obTZ6aTRyaHNueHFlcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Sl7nUOxl5wrlICBZOW/giphy.gif" alt="Proyecto 1">
+                        <span>Director, Producer, Editor</span>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/195744447/MAQUINA-REVOLCADORA-FAV-TINO-AMOR" target="_blank" rel="noopener noreferrer">
+                    <div class="project">
+                        <span>Maquina Revolcadora</span>
+                            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY293MzV3cmoyMWltaXJiN2hpNmZhZGM3MGxvYnJ0djZzbjZweDhraiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OLruoAmKUO8PJSgCOA/giphy.gif" alt="Proyecto 1">
+                        <span>Video editor</span>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/195745109/CUMBRE-2023" target="_blank" rel="noopener noreferrer">
+                    <div class="project">
+                        <span>Cumbre 2023</span>
+                            <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXZubzB4dGYxb2N1a2s1bTdwdGprczkxb25vOWFjcWYwZm9wbGRxZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/laXD4pdJFw2EEmhbR0/giphy.gif" alt="Proyecto 1">
+                        <span>Director, Producer</span>
+                    </div>
+                </a>
+                <a href="https://www.behance.net/gallery/195747173/YEET-SMASH" target="_blank" rel="noopener noreferrer">
+                    <div class="project">
+                        <span>Yeet Smash</span>
+                            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZThvdXR2bmFzc29qdnl3cHIwaTN6NWs4bm5lbzIxd2ZnMDV2bTY4eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qUeva3m6P7TvTgi6qS/giphy.gif" alt="Proyecto 1">
+                        <span>Video editor, Creative director</span>
+                    </div>
+                </a>
+            </div>
+            <div class="extraLinks">
+                <a href="https://www.behance.net/gallery/195914287/DEMO-REEL" target="_blank" rel="noopener noreferrer"><span>Video Editor Reel</span></a>
+                <a href="https://www.behance.net/gallery/197957315/SHORT-FORM-CONTENT" target="_blank" rel="noopener noreferrer"><span>Short Form Content</span></a>
+                <a href="https://www.behance.net/gallery/199082967/GRAPHICS" target="_blank" rel="noopener noreferrer"><span>Graphic Design</span></a>
+            </div>
+        </div>
+        <script>
+            function copyEmailToClipboard(){
+                navigator.clipboard.writeText("santiproductions@gmail.com");
+            }
+
+            /* When the user clicks on the button,
+            toggle between hiding and showing the dropdown content */
+            function dropdownButton() {
+                document.getElementById("socialsMenu").classList.toggle("show");
+            }
+
+            // Close the dropdown menu if the user clicks outside of it
+            window.onclick = function(event) {
+                if (!event.target.matches('.dropButton')) {
+                    var dropdowns = document.getElementsByClassName("dropdownContent");
+                    var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
